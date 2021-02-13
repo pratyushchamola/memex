@@ -1,0 +1,108 @@
+/* color 🎨  CSS HSL 
+--maximum-yellow-red: hsla(37, 100%, 64%, 1);
+--light-sea-green: hsla(178, 67%, 38%, 1);
+--tart-orange: hsla(0, 82%, 65%, 1);
+--dark-purple: hsla(309, 100%, 7%, 1);
+--silver-metallic: hsla(207, 5%, 66%, 1); */
+
+body{
+  background-color: rgb(17, 17, 17);
+  color: azure;
+  width: 100vw;
+  height: 100vh;
+  
+ 
+}
+#form-container{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border: 2px solid red;
+  
+  
+}
+
+.field{
+  max-width: fit-content;
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: row;
+  margin-left: 0;
+
+}
+h2{
+  margin-top: 0;
+  padding: 0%;
+  color: black;
+}
+
+.field input{
+  width: 100%;
+  resize: vertical;
+  border: none;
+  border-bottom: 5px solid black;
+  background: #f8f4e5;
+  min-width: 60%;
+  padding-left: 5px;
+  outline: none;
+  color: black;
+}
+label {
+  box-sizing: border-box;
+  border: solid 2px black;
+  
+  color: black;
+  padding: 0 5px 0 5px;
+  border-bottom: 5px solid black;
+}
+
+#f1:hover, #f2:hover, #f3:hover{
+  background-color: black;
+  color: #f8f4e5;
+}
+#f1{
+  
+  background-color: hsla(0, 82%, 65%, 1) ;
+}
+
+#f2{
+  background-color: hsla(37, 100%, 64%, 1);
+}
+
+#f3{
+  background-color: hsla(178, 67%, 38%, 1);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+#form-button{
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 28pt;
+  padding: 0px 20px;
+  background: #000000;
+  color: rgb(250, 250, 250);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1px #1a2da7, 3px 3px 1px 1px black;
+}
+
+#form-button:hover {
+  background: rgb(255, 255, 255);
+  color:black;
+  
+  border: 1px solid black;
+}

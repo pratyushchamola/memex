@@ -1,0 +1,32 @@
+ <div className = "container">
+              <div id = "form-container">
+                  <div id="form-wrapper">
+                    <form>
+                      <h2>LOL!</h2>
+                      <div className="field" >
+                        <label id="f1" for="Name" style={{flex:1}}>Name</label> 
+                        <input  id="Name" placeholder="Name" required="" type="text" />
+                      </div> 
+                      
+                      <div className="field" >
+                        <label id="f2" for="caption" style={{flex:1}}>Caption</label>
+                        <input  id="caption" name="Caption" placeholder="Be Creative !" type="text" />
+                      </div>
+                      
+                      <div className="field" >  
+                        <label id="f3" for="url" style={{flex:1}}>URL</label>
+                        <input  id="url" name="URL" placeholder="Image Link" type="url" />
+                      </div>  
+                        
+                        <button id="form-button" type="button">SUBMIT</button>
+
+                    </form>
+                  </div>
+              </div>
+
+              <div id = "meme-container">
+
+
+
+              </div>
+          </div>
